@@ -49,11 +49,11 @@
     },
     "middleware": {
       "mbedtls": {
-        "version": "2.4.2",
+        "version": "2.13.1",
         "from": {
           "protocol": "git",
           "location": "https://github.com/ARMmbed/mbedtls.git",
-          "tag": "mbedtls-2.4.2"
+          "tag": "mbedtls-2.13.1"
         },
         "to": "Middleware/mbedtls/mbedtls"
       }
@@ -70,17 +70,17 @@
     },
     "middleware": {
       "mbedtls": {
-        "version": "2.4.2",
+        "version": "2.13.1",
         "from": {
           "protocol": "git",
           "location": "https://github.com/ARMmbed/mbedtls.git",
-          "tag": "mbedtls-2.4.2"
+          "tag": "mbedtls-2.13.1"
         },
         "to": "Middleware/mbedtls/mbedtls"
       }
     }
   },
-  "ARM_OpenWRT_mbedtls":
+    "ARM_OpenWRT_mbedtls":
   {
     "device": {
       "name": "OpenWRT_Generic"
@@ -90,17 +90,17 @@
     },
     "middleware": {
       "mbedtls": {
-        "version": "2.4.2",
+        "version": "2.13.1",
         "from": {
           "protocol": "git",
           "location": "https://github.com/ARMmbed/mbedtls.git",
-          "tag": "mbedtls-2.4.2"
+          "tag": "mbedtls-2.13.1"
         },
         "to": "Middleware/mbedtls/mbedtls"
       }
     }
-  },
-  "Yocto_Generic_mLinux_mbedtls":
+  },  
+   "Yocto_Generic_mLinux_mbedtls":
   {
     "device": {
       "name": "Yocto_Generic"
